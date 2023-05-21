@@ -20,4 +20,4 @@ jobs:
         run: dotnet build ./src/Moonglade.sln --configuration Release --no-restore
       
       - name: Publish
-        run: dotent publish ./src/Moonglade.sln --configuration Release --no-build
+        run: dotent publish ./src/Moonglade.Web/Moonglade.Web.csproj --configuration Release --no-build
