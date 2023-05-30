@@ -8,6 +8,13 @@
         "MOONGLADE_TAGS": "local, dev"
       },
       "applicationUrl": "https://localhost:1055"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true,
+      "useSSL": true
     }
   }
 }
